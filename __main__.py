@@ -84,7 +84,7 @@ trends = model.build_trends(iterations)
 if bool(args.viz):
     # Visualization
     viz = DiffusionTrend(model, trends)
-    viz.plot("diffusion_trene.pdf")
+    viz.plot("diffusion_trend.pdf")
 
     viz = DiffusionPrevalence(model, trends)
     viz.plot("diffusion_prevalence.pdf")
