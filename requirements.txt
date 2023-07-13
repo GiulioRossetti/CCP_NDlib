@@ -1,2 +1,3 @@
-ndlib
+ndlib>5.1.0
 networkx
+matplotlib
